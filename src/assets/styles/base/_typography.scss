@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../../fonts/TT Hoves/TTHoves-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../../fonts/TT Hoves/TTHoves-Medium.woff2') format('woff2');
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $color-white;
+  background-color: $color-black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+span,
+p {
+  font-family: 'TT Hoves', sans-serif;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'TT Hoves', sans-serif;
+  font-weight: 500;
+}

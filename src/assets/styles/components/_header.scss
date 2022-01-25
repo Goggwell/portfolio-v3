@@ -1,0 +1,82 @@
+.header {
+  height: 100vh;
+  width: 100%;
+  background-color: $color-black;
+
+  &__hero {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 88px 0 88px 88px;
+    gap: 5rem;
+
+    &--about {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      &-text {
+        width: 85%;
+
+        h1 {
+          font-size: 8rem;
+          line-height: 1;
+          padding-bottom: 3rem;
+        }
+
+        p {
+          font-size: 2rem;
+          color: $color-gray;
+        }
+      }
+    }
+
+    &--featured {
+      width: 50%;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(20rem, 1fr));
+      gap: 1.5rem;
+      align-content: start;
+
+      &-item {
+        padding: 3rem;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        background-color: $color-black-light;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 16px,
+          rgba(0, 0, 0, 0.15) 0px 8px 32px;
+        cursor: pointer;
+
+        h1 {
+          font-size: 3rem;
+          padding-bottom: 1rem;
+        }
+
+        span {
+          font-size: 1.6rem;
+          padding-bottom: 2rem;
+        }
+
+        p {
+          font-size: 1.4rem;
+          color: $color-gray;
+          padding-bottom: 2rem;
+        }
+
+        &--links {
+          display: flex;
+          flex-direction: row;
+          gap: 2rem;
+
+          svg {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
