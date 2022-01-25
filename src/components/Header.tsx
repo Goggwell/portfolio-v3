@@ -33,6 +33,75 @@ const Header = () => {
                 <FontAwesomeIcon icon={['fas', 'globe']} />
               </div>
             </div>
+            <div className='header__hero--featured-item'>
+              <span className='header__hero--featured-item--class'>
+                typescript
+              </span>
+              <h1>it's a sorting visualizer</h1>
+              <p>
+                check out what different sorting algorithms look like with this
+                app!
+              </p>
+              <div className='header__hero--featured-item--links'>
+                <FontAwesomeIcon icon={['fab', 'github']} />
+                <FontAwesomeIcon icon={['fas', 'globe']} />
+              </div>
+            </div>
+            <div className='header__hero--featured-item'>
+              <span className='header__hero--featured-item--class'>
+                typescript
+              </span>
+              <h1>my portfolio</h1>
+              <p>
+                why wouldn't i add my own portfolio to my list of featured
+                projects? it's pretty good in my opinion.
+              </p>
+              <div className='header__hero--featured-item--links'>
+                <FontAwesomeIcon icon={['fab', 'github']} />
+              </div>
+            </div>
+            <div className='header__hero--featured-item'>
+              <span className='header__hero--featured-item--class'>
+                typescript
+              </span>
+              <h1>something with redux</h1>
+              <p>
+                check out what different sorting algorithms look like with this
+                app!
+              </p>
+              <div className='header__hero--featured-item--links'>
+                <FontAwesomeIcon icon={['fab', 'github']} />
+                <FontAwesomeIcon icon={['fas', 'globe']} />
+              </div>
+            </div>
+            <div className='header__hero--featured-item'>
+              <span className='header__hero--featured-item--class'>
+                typescript
+              </span>
+              <h1>something with locomotive scroll</h1>
+              <p>
+                check out what different sorting algorithms look like with this
+                app!
+              </p>
+              <div className='header__hero--featured-item--links'>
+                <FontAwesomeIcon icon={['fab', 'github']} />
+                <FontAwesomeIcon icon={['fas', 'globe']} />
+              </div>
+            </div>
+            <div className='header__hero--featured-item'>
+              <span className='header__hero--featured-item--class'>
+                javascript
+              </span>
+              <h1>buypedal</h1>
+              <p>
+                my first (and only) startup, co-founded with my good friend. we
+                sell fishing and cycling goods!
+              </p>
+              <div className='header__hero--featured-item--links'>
+                <FontAwesomeIcon icon={['fab', 'github']} />
+                <FontAwesomeIcon icon={['fas', 'globe']} />
+              </div>
+            </div>
           </div>
         </div>
       </header>
