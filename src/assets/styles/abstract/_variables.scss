@@ -7,3 +7,17 @@ $color-green: #26ff00;
 $color-red: #ff0026;
 
 $easing-init: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+:root {
+  --background: #fff;
+  --background-secondary: #949495;
+  --text-primary: #151515;
+  --text-secondary: #202020;
+}
+
+[data-theme='dark'] {
+  --background: #151515;
+  --background-secondary: #202020;
+  --text-primary: #fff;
+  --text-secondary: #949495;
+}
